@@ -1,0 +1,27 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Correct Tailwind Import */
+@import "tailwindcss";
+
+* {
+  font-family: 'Outfit';
+}
+
+.active hr {
+  @apply block;
+}
+
+/* Tailwind does not support @apply for pseudo-elements */
+::-webkit-scrollbar {
+  display: none; /* Use normal CSS instead */
+}
+
+@media (max-width: 740px) {
+  .active p {
+    @apply text-white bg-purple-800;
+  }
+}
