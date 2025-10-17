@@ -86,7 +86,4 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 Made with ❤️ for digital healthcare.
 
-```
 
-Do you want me to do that?
-```
